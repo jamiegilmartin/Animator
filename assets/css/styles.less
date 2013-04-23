@@ -1,0 +1,31 @@
+@import url( reset.css );
+
+@borders : #eee;
+.bordered {
+	border: 1px dashed @borders;
+}
+
+body {
+	background-color: #d8d8d8;
+	color: #151515;
+	font: normal 10px/10px helvetica, arial;
+} 
+
+.output {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	font-family:monospace;
+	color:#eee;
+	background:rgba(0,0,0,0.2);
+	padding:0 1em 0 1em;
+	font-size:1.5em;
+	line-height:1em;
+}
+
+.scene {
+	width:50em;
+	margin: 5em auto;
+	.bordered 
+}
