@@ -451,7 +451,19 @@ function ball(){
 
 function knight(){
     // knight
-    var knight = [
+    var attach1 = [
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
         'knight/start0',
         '',
         'knight/start1',
@@ -493,9 +505,62 @@ function knight(){
         '',
         '',
         '',
-        '',
+        ''
     ];
-    return knight;
+var hit1 = [
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/start0',
+        '',
+        'knight/hit-neck-1-2',
+        '',
+        '',
+        '',
+        '',
+        '',
+        'knight/hit-neck-2-1',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        'knight/hit-neck-3',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        'knight/start2',
+        '',
+        '',
+        '',
+        '',
+        'knight/start3',
+        '',
+        '',
+        '',
+        '',
+        '',
+        'knight/hit-neck-1'
+
+    ];
+    return attach1.concat(hit1);
 }
 
 
