@@ -507,7 +507,7 @@ function knight(){
         '',
         ''
     ];
-var hit1 = [
+    var hit1 = [
         'knight/start0',
         '',
         'knight/start0',
@@ -563,6 +563,42 @@ var hit1 = [
     return attach1.concat(hit1);
 }
 
+function godknight(){
+    // knight
+    var run = [
+        'godknight/run-0','','','',
+        'godknight/run-1','','','',''
+    ];
+    var runToSword = [
+        'godknight/run-to-sword-0','','','',
+        'godknight/run-to-sword-1','','','','',
+        'godknight/run-to-sword-2','','','',''
+    ];
+    var rest = [
+        'godknight/rest-0','','',
+        'godknight/rest-1','','','',
+        'godknight/rest-2','','','','','',
+        'godknight/rest-1','','',
+        'godknight/rest-0','',''
+    ];
 
+    var send = run
+    .concat(run)
+    .concat(run)
+    .concat(run)
+    .concat(run)
+    .concat(run)
+    .concat(run)
+    .concat(runToSword)
+    .concat(rest)
+    .concat(rest)
+    .concat(rest)
+    .concat(rest)
+    .concat(rest)
+    .concat(rest)
+    .concat(rest)
+    .concat(rest);
+    return send;
+}
 
-var DRAWINGS = knight();
+var DRAWINGS = godknight();
