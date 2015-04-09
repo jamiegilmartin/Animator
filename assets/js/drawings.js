@@ -567,12 +567,18 @@ function godknight(){
     // knight
     var run = [
         'godknight/run-0','','','',
-        'godknight/run-1','','','',''
+        'godknight/run-1','','','',
+        'godknight/run-2','','','',
     ];
     var runToSword = [
         'godknight/run-to-sword-0','','','',
-        'godknight/run-to-sword-1','','','','',
-        'godknight/run-to-sword-2','','','',''
+        'godknight/run-to-sword-1','','',
+        'godknight/run-to-sword-2','','',
+    ];
+    var runToSwordbw = [
+        'godknight/run-to-sword-2','','','',
+        'godknight/run-to-sword-1','','',
+        'godknight/run-to-sword-0','','',
     ];
     var rest = [
         'godknight/rest-0','','',
@@ -581,7 +587,12 @@ function godknight(){
         'godknight/rest-1','','',
         'godknight/rest-0','',''
     ];
-
+    var strikeAbove = [
+        'godknight/strike-above-0','','',
+        'godknight/strike-above-1','','','',
+        'godknight/strike-above-2','','','','','',
+        'godknight/strike-above-3','','',
+    ];
     var send = run
     .concat(run)
     .concat(run)
@@ -591,13 +602,21 @@ function godknight(){
     .concat(run)
     .concat(runToSword)
     .concat(rest)
-    .concat(rest)
-    .concat(rest)
-    .concat(rest)
-    .concat(rest)
-    .concat(rest)
-    .concat(rest)
-    .concat(rest);
+    //.concat(rest)
+    //.concat(rest)
+    //.concat(rest)
+    //.concat(rest)
+    //.concat(rest)
+    //.concat(rest)
+    //.concat(rest)
+    .concat(strikeAbove)
+    .concat(runToSwordbw)
+    .concat(run)
+    .concat(run)
+    .concat(run)
+    .concat(run)
+    .concat(run)
+    .concat(run);
     return send;
 }
 
